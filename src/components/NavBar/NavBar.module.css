@@ -1,0 +1,41 @@
+.btnTogglerCustomizado {
+  background-color: color-mix(in srgb, var(--accent-color), transparent 20%)!important;
+  border-color: transparent!important;
+}
+
+.btnTogglerCustomizado:focus,
+.btnTogglerCustomizado:focus:not(:focus-visible) {
+  box-shadow: 0 0 0 4px var(--accent-color);
+}
+
+.btnTogglerCustomizado:hover{
+   background-color: color-mix(in srgb, var(--accent-color), transparent 0%)!important;
+}
+
+.offcanvasPersonalizado {
+    width: 280px!important;
+}
+
+.offcanvasPersonalizado :global(.nav-link) {
+  font-size: large!important;
+  font-weight: 400!important;
+  color: var(--default-color)!important;
+  transition: all .2s ease-in-out!important;
+}
+
+.offcanvasPersonalizado :global(.nav-link):focus,
+.offcanvasPersonalizado :global(.nav-link):hover{
+  color: var(--accent-color)!important;
+  font-weight: 500!important;
+  font-size:larger!important;
+}
+
+@media screen and (max-width: 576px) {
+  .offcanvasPersonalizado {
+    width: 280!important;
+  }
+
+  .offcanvasPersonalizado :global(.nav-link) {
+    font-size:medium!important;
+  }
+}

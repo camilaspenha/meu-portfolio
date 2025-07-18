@@ -1,0 +1,169 @@
+[
+  {
+    "id": "setos-plataformas",
+    "title": "Setos Plataformas",
+    "description": "Um site institucional para empresa de locação de plataformas elevatórias. Construído com WordPress, usando o plugin ACF - Advanced Custom Fields para criação do tema personalizado e Typescript, integrado com um formulário de contato para envio de e-mails pela biblioteca PHP Mailer.",
+    "category": "WordPress",
+    "techs": [
+      "WordPress",
+      "Typescript",
+      "PHP"
+    ],
+    "image": "/img/portfolio-1.jpg",
+    "link": "https://setosplataformas.com.br/",
+    "repository": "https://github.com/camilaspenha/wp-setosplataformas-tema"
+  },
+  {
+    "id": "site-criativo",
+    "title": "Site Criativo",
+    "description": "Um site institucional para divulgação de serviços de criação de sites. Construído com WordPress, usando o plugin ACF - Advanced Custom Fields para criação do tema personalizado e Typescript. Integrado com um formulário de contato para envio de e-mails pela biblioteca PHP Mailer e integração com API do Mailchimp para Newsletter.",
+    "category": "WordPress",
+    "techs": [
+      "WordPress",
+      "Typescript",
+      "PHP",
+      "Mailchimp"
+    ],
+    "image": "/img/portfolio-2.jpg",
+    "link": "https://sitecriativo.tec.br/",
+    "repository": "https://github.com/camilaspenha/sitecriativo-tema"
+  },
+  {
+    "id": "simplementchic-parfums",
+    "title": "SimplementChic",
+    "description": "Um site institucional para divulgação de um conceito de Identidade Olfativa que a empresa oferece. Construído com WordPress, usando o plugin ACF - Advanced Custom Fields para criação do tema personalizado e Typescript.",
+    "category": "WordPress",
+    "techs": [
+      "WordPress",
+      "Typescript",
+      "PHP"
+    ],
+    "image": "/img/portfolio-3.jpg",
+    "link": "https://simplementchic-parfums.com.br/",
+    "repository": "https://github.com/camilaspenha/wp-simplementchic-tema"
+  },
+  {
+    "id": "blog-app-angular",
+    "title": "Blog App - Angular",
+    "description": "Um protótipo de blog desenvolvido para o curso de Formação Angular pela DIO. Construído com Angular v.14 e Typescript. Design por BootstrapMade (https://bootstrapmade.com).",
+    "category": "Angular",
+    "techs": [
+      "Angular",
+      "Typescript",
+      "Bootstrap"
+    ],
+    "image": "/img/portfolio-4.jpg",
+    "link": "https://camilaspenha.github.io/blog-app/blog-app/",
+    "repository": "https://github.com/camilaspenha/blog-app"
+  },
+  {
+    "id": "buzz-clone",
+    "title": "BuzzFeed Quiz Clone",
+    "description": "Um protótipo de quiz baseado no site BuzzFeed desenvolvido para o curso de Formação Angular pela DIO. Construído com Angular v.14 e Typescript.",
+    "category": "Angular",
+    "techs": [
+      "Angular",
+      "Typescript"
+    ],
+    "image": "/img/portfolio-5.jpg",
+    "link": "https://camilaspenha.github.io/buzz-clone-app/",
+    "repository": "https://github.com/camilaspenha/buzz-clone-app"
+  },
+  {
+    "id": "ps-store-app",
+    "title": "Play Station Store Clone",
+    "description": "Um modelo de loja baseado na PS Store, desenvolvido para o curso de Formação Angular pela DIO. Construído com Angular v.14 e Typescript.",
+    "category": "Angular",
+    "techs": [
+      "Angular",
+      "Typescript"
+    ],
+    "image": "/img/portfolio-6.jpg",
+    "link": "https://camilaspenha.github.io/ps-store-app/",
+    "repository": "https://github.com/camilaspenha/ps-store-app"
+  },
+  {
+    "id": "finans",
+    "title": "Finans",
+    "description": "Um modelo de site criado no curso de Desenvolvimento Web da Udemy aplicando Web Design com HTML, CSS e Bootstrap.",
+    "category": "HTML/CSS",
+    "techs": [
+      "HTML",
+      "CSS",
+      "Bootstrap"
+    ],
+    "image": "/img/portfolio-7.jpg",
+    "link": "https://camilaspenha.github.io/finans/",
+    "repository": "https://github.com/camilaspenha/finans"
+  },
+  {
+    "id": "game-matamosquito",
+    "title": "Game Mata Mosquito",
+    "description": "Um modelo de game criado no curso de Desenvolvimento Web Completo da Udemy, baseado em Javascript.",
+    "category": "Javascript",
+    "techs": [
+      "HTML",
+      "CSS",
+      "Javascript"
+    ],
+    "image": "/img/portfolio-8.jpg",
+    "link": "https://camilaspenha.github.io/mata-mosquito-js/",
+    "repository": "https://github.com/camilaspenha/mata-mosquito-js"
+  },
+  {
+    "id": "spotfy-clone",
+    "title": "Spotfy Clone",
+    "description": "Um modelo de site baseado na página do Spotify, criado no curso de Desenvolvimento Web da Udemy, aplicando Web Design com HTML e CSS.",
+    "category": "HTML/CSS",
+    "techs": [
+      "HTML",
+      "CSS"
+    ],
+    "image": "/img/portfolio-9.jpg",
+    "link": "https://camilaspenha.github.io/spot-clone/",
+    "repository": "https://github.com/camilaspenha/spot-clone"
+  },
+  {
+    "id": "flex-blog",
+    "title": "Flex Blog",
+    "description": "Um modelo de site criado no curso de CSS Flex Box da Origamid.",
+    "category": "HTML/CSS",
+    "techs": [
+      "HTML",
+      "CSS",
+      "CSS Flex Box"
+    ],
+    "image": "/img/portfolio-10.jpg",
+    "link": "https://camilaspenha.github.io/curso-css-flexbox/",
+    "repository": "https://github.com/camilaspenha/curso-css-flexbox"
+  },
+  {
+    "id": "wildbeast",
+    "title": "Wildbeast",
+    "description": "Um modelo de site criado no curso de CSS Grid da Origamid.",
+    "category": "HTML/CSS",
+    "techs": [
+      "HTML",
+      "CSS",
+      "CSS Grid Layout"
+    ],
+    "image": "/img/portfolio-11.jpg",
+    "link": "https://camilaspenha.github.io/curso-css-grid-layout-origamid/",
+    "repository": "https://github.com/camilaspenha/curso-css-grid-layout-origamid"
+  },
+  {
+    "id": "nebula",
+    "title": "Nebula",
+    "description": "Site institucional da empresa Nebula, construído com PHP no framework Laravel.",
+    "category": "PHP",
+    "techs": [
+      "HTML",
+      "CSS",
+      "PHP",
+      "Laravel"
+    ],
+    "image": "/img/portfolio-12.jpg",
+    "link": "https://www.nebulacapital.com.br/",
+    "repository": ""
+  }
+]

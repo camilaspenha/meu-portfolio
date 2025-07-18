@@ -1,0 +1,358 @@
+:root {
+  --default-font: "Roboto",  system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --heading-font: "Ubuntu",  sans-serif;
+  --nav-font: "Nunito",  sans-serif;
+}
+
+:root { 
+  --background-color: #ffffff;
+  /* Background color for the entire website, including individual sections */
+  --default-color: #444444;
+  /* Default color used for the majority of the text content across the entire website */
+  --heading-color: #242222; 
+  /* Color for headings, subheadings and title throughout the website */
+  --accent-color: #86A69D;
+  /*  Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
+  --surface-color: rgba(0, 0, 0, 0.058);
+  /* The surface color is used as a background of boxed elements within sections, such as cards, icon boxes, or other elements that require a visual separation from the global background. */
+  --contrast-color: #000000;
+  /* Contrast color for text, ensuring readability against backgrounds of accent, heading, or default colors. */
+}
+.light-background {
+  --background-color: #f7faff;
+  --surface-color: #ffffff;
+}
+
+.dark-background {
+  --background-color: #065cc2;
+  --default-color: #ffffff;
+  --heading-color: #ffffff;
+  --accent-color: #afcdf1;
+  --surface-color: #2973cc;
+  --contrast-color: #ffffff;
+}
+
+
+:root {
+  scroll-behavior: smooth;
+}
+
+/*--------------------------------------------------------------
+# General Styling & Shared Classes
+--------------------------------------------------------------*/
+body {
+  color: var(--default-color);
+  background-color: var(--background-color);
+  font-family: var(--default-font);
+}
+
+a {
+  color: var(--accent-color);
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+a:hover {
+  color: color-mix(in srgb, var(--accent-color), transparent 25%);
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--heading-color);
+  font-family: var(--heading-font);
+}
+
+/*--------------------------------------------------------------
+#Custom Buttons
+--------------------------------------------------------------*/
+a.custom-button.btn{
+  padding: 0.875rem 2rem!important;
+  border-radius: 0.75rem!important;
+  font-weight: 600!important;
+  text-decoration: none!important;
+  transition: all 0.3s!important;
+  display: inline-flex!important;
+  align-items: center!important;
+  gap: 0.5rem!important;
+  border: 2px solid transparent!important;
+}
+a.custom-button.btn.btn-primary {
+    background-color: var(--accent-color)!important;
+}
+a.custom-button.btn.btn-primary:hover{
+  background-color: color-mix(in srgb, var(--accent-color), black 15%)!important;
+  transform: translateY(-2px)!important;
+  box-shadow: 0 10px 30px color-mix(in srgb, var(--accent-color), transparent 60%)!important;
+}
+
+a.custom-button.btn.btn-outline{
+  background-color: transparent!important;
+  color: var(--default-color)!important;
+  border-color: color-mix(in srgb, var(--default-color), transparent 70%)!important;
+}
+
+a.custom-button.btn.btn-outline:hover {
+  border-color: var(--accent-color)!important;
+  transform: translateY(-2px)!important;
+}
+
+/*--------------------------------------------------------------
+# Global Page Titles & Breadcrumbs
+--------------------------------------------------------------*/
+.page-title {
+  color: var(--default-color);
+  background-color: var(--background-color);
+  padding: 25px 0;
+  position: relative;
+}
+
+.page-title h1 {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.page-title .breadcrumbs ol {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.page-title .breadcrumbs ol li+li {
+  padding-left: 10px;
+}
+
+.page-title .breadcrumbs ol li+li::before {
+  content: "/";
+  display: inline-block;
+  padding-right: 10px;
+  color: color-mix(in srgb, var(--default-color), transparent 70%);
+}
+
+/*--------------------------------------------------------------
+# Global Sections
+--------------------------------------------------------------*/
+section,
+.section {
+  color: var(--default-color);
+  background-color: var(--background-color);
+  padding: 60px 0;
+  overflow: clip;
+}
+
+/*--------------------------------------------------------------
+# Global Section Titles
+--------------------------------------------------------------*/
+.section-title {
+  text-align: center;
+  padding-bottom: 60px;
+  position: relative;
+}
+
+.section-title h2 {
+  font-size: 32px;
+  font-weight: 700;
+  position: relative;
+}
+
+.section-title h2:before,
+.section-title h2:after {
+  content: "";
+  width: 50px;
+  height: 2px;
+  background: var(--accent-color);
+  display: inline-block;
+}
+
+@media screen and (max-width:576px) {
+  .section-title h2 {
+    font-size: 28px;
+  }
+
+  .section-title h2:before,
+  .section-title h2:after {
+     width: 30px;
+  }
+}
+
+.section-title h2:before {
+  margin: 0 15px 10px 0;
+}
+
+.section-title h2:after {
+  margin: 0 0 10px 15px;
+}
+
+.section-title p {
+  margin-bottom: 0;
+}
+
+.accent-color{
+  color: var(--accent-color)!important
+}
+
+/*--------------------------------------------------------------
+# Global Footer
+--------------------------------------------------------------*/
+.footer {
+  color: var(--default-color);
+  background-color: var(--background-color);
+  font-size: 14px;
+  position: relative;
+  
+}
+
+.footer .container{
+  border-top: 1px solid color-mix(in srgb, var(--default-color), transparent 90%);
+}
+
+
+.footer .copyright p {
+  margin-bottom: 0;
+  color: var(--heading-color);
+  opacity: .5;
+}
+
+.footer .credits {
+  margin-top: 4px;
+  font-size: 13px;
+  text-align: center;
+  
+}
+
+
+/*--------------------------------------------------------------
+# Portfolio Details Page
+--------------------------------------------------------------*/
+.portfolio-details .portfolio-info {
+  padding: 30px;
+  background-color: var(--surface-color);
+  border-radius: 8px;
+  box-shadow: 0 0 30px rgba(var(--default-color), 0.1);
+}
+
+.portfolio-details .portfolio-info h5,
+.portfolio-details .portfolio-info h3 {
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid color-mix(in srgb, var(--default-color), transparent 90%);
+}
+
+.portfolio-details .portfolio-info h5{
+  font-size: 20px;
+}
+
+.portfolio-details .portfolio-info ul {
+  padding: 0;
+  list-style: none;
+}
+
+.portfolio-details .portfolio-info > ul li {
+  padding: 10px 0;
+  border-bottom: 1px solid color-mix(in srgb, var(--default-color), transparent 90%);
+}
+
+.portfolio-details .portfolio-info ul li:last-child {
+  border-bottom: 0;
+}
+
+.portfolio-details .portfolio-info ul li strong {
+  font-weight: 600;
+  margin-right: 10px;
+  color: var(--heading-color);
+}
+
+.portfolio-details .portfolio-info ul li a {
+  color: var(--accent-color);
+  transition: 0.3s;
+}
+
+.portfolio-details .portfolio-info ul li a:hover {
+  color: color-mix(in srgb, var(--accent-color), transparent 25%);
+  text-decoration: underline;
+}
+
+.portfolio-details .portfolio-description h2 {
+  font-size: 26px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.portfolio-details .portfolio-description p {
+  padding: 0;
+  margin-bottom: 20px;
+  color: color-mix(in srgb, var(--default-color), transparent 20%);
+}
+
+.portfolio-details .portfolio-description .features h3 {
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+.portfolio-details .portfolio-description .features .feature-item {
+  padding: 30px;
+  background-color: var(--surface-color);
+  border-radius: 8px;
+  height: 100%;
+  transition: 0.3s;
+  box-shadow: 0 0 30px rgba(var(--default-color), 0.1);
+}
+
+.portfolio-details .portfolio-description .features .feature-item:hover {
+  transform: translateY(-5px);
+}
+
+.portfolio-details .portfolio-description .features .feature-item i {
+  font-size: 32px;
+  color: var(--accent-color);
+  margin-bottom: 20px;
+  display: inline-block;
+}
+
+.portfolio-details .portfolio-description .features .feature-item h4 {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.portfolio-details .portfolio-description .features .feature-item p {
+  margin: 0;
+  font-size: 15px;
+}
+
+@media (max-width: 991px) {
+  .portfolio-details .portfolio-info {
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .portfolio-details .portfolio-description h2 {
+    font-size: 24px;
+  }
+}
+
+.portfolio-details .features ul{
+  display: flex;
+}
+.portfolio-details .features .tag {
+    list-style: none;
+    margin: 5px;
+    padding: 6px 12px;
+    border-radius: 25px;
+    background-color: color-mix(in srgb, var(--accent-color), white 70%);
+    font-size: 12px;
+    text-transform: uppercase;
+    border-color: transparent;
+}
