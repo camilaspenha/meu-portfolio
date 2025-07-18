@@ -3,6 +3,7 @@ import { useEffect, useState } from "react"
 import { fetchProjects } from "../api/fetchProjects"
 import type { Project } from "../types"
 import Footer from "../components/Footer/Footer"
+import { SITE_URL } from "../constants/dados"
 
 export default function ProjectDetails() {
   const { id } = useParams()
@@ -24,7 +25,7 @@ export default function ProjectDetails() {
             <h1 className="mb-2 mb-lg-0">{project.title}</h1>
             <nav className="breadcrumbs">
               <ol>
-                <li><a href="/meu-portfolio/"><strong>Home</strong></a></li>
+                <li><a href={SITE_URL}><strong>Home</strong></a></li>
               </ol>
             </nav>
           </div>
@@ -36,7 +37,7 @@ export default function ProjectDetails() {
 
           <div className="row gy-4">
              <div className="col-lg-8">
-              <img src={project.image} alt={project.title} className="img-fluid rounded mb-4" />
+              <img src={SITE_URL + project.image} alt={project.title} className="img-fluid rounded mb-4" />
              </div>
              <div className="col-lg-4">
 
@@ -56,9 +57,9 @@ export default function ProjectDetails() {
                 </div>                           
 
                 <div className="mt-3">
-                  <a href={project.link} className="custom-button btn btn-primary me-2" target="_blank">Ver Projeto</a>
+                  <a href={project.link} className="custom-button btn btn-primary mt-2 me-2" target="_blank">Ver Projeto</a>
 
-                  {project.repository && project.repository !== "" ? <a href={project.repository} className="custom-button btn btn-outline" target="_blank"><i className="bi bi-github"></i>Repositório</a> : ""}
+                  {project.repository && project.repository !== "" ? <a href={project.repository} className="custom-button btn btn-outline mt-2" target="_blank"><i className="bi bi-github"></i>Repositório</a> : ""}
                 </div>
 
               </div>

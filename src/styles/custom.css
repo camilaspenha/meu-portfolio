@@ -343,9 +343,12 @@ section,
   }
 }
 
-.portfolio-details .features ul{
-  display: flex;
+.portfolio-details .features ul {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0;
 }
+
 .portfolio-details .features .tag {
     list-style: none;
     margin: 5px;

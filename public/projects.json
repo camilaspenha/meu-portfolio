@@ -9,7 +9,7 @@
       "Typescript",
       "PHP"
     ],
-    "image": "/meu-portfolio/img/portfolio-1.jpg",
+    "image": "img/portfolio-1.jpg",
     "link": "https://setosplataformas.com.br/",
     "repository": "https://github.com/camilaspenha/wp-setosplataformas-tema"
   },
@@ -24,7 +24,7 @@
       "PHP",
       "Mailchimp"
     ],
-    "image": "/meu-portfolio/img/portfolio-2.jpg",
+    "image": "img/portfolio-2.jpg",
     "link": "https://sitecriativo.tec.br/",
     "repository": "https://github.com/camilaspenha/sitecriativo-tema"
   },
@@ -38,7 +38,7 @@
       "Typescript",
       "PHP"
     ],
-    "image": "/meu-portfolio/img/portfolio-3.jpg",
+    "image": "img/portfolio-3.jpg",
     "link": "https://simplementchic-parfums.com.br/",
     "repository": "https://github.com/camilaspenha/wp-simplementchic-tema"
   },
@@ -52,7 +52,7 @@
       "Typescript",
       "Bootstrap"
     ],
-    "image": "/meu-portfolio/img/portfolio-4.jpg",
+    "image": "img/portfolio-4.jpg",
     "link": "https://camilaspenha.github.io/blog-app/blog-app/",
     "repository": "https://github.com/camilaspenha/blog-app"
   },
@@ -65,7 +65,7 @@
       "Angular",
       "Typescript"
     ],
-    "image": "/meu-portfolio/img/portfolio-5.jpg",
+    "image": "img/portfolio-5.jpg",
     "link": "https://camilaspenha.github.io/buzz-clone-app/",
     "repository": "https://github.com/camilaspenha/buzz-clone-app"
   },
@@ -78,7 +78,7 @@
       "Angular",
       "Typescript"
     ],
-    "image": "/meu-portfolio/img/portfolio-6.jpg",
+    "image": "img/portfolio-6.jpg",
     "link": "https://camilaspenha.github.io/ps-store-app/",
     "repository": "https://github.com/camilaspenha/ps-store-app"
   },
@@ -92,7 +92,7 @@
       "CSS",
       "Bootstrap"
     ],
-    "image": "/meu-portfolio/img/portfolio-7.jpg",
+    "image": "img/portfolio-7.jpg",
     "link": "https://camilaspenha.github.io/finans/",
     "repository": "https://github.com/camilaspenha/finans"
   },
@@ -106,7 +106,7 @@
       "CSS",
       "Javascript"
     ],
-    "image": "/meu-portfolio/img/portfolio-8.jpg",
+    "image": "img/portfolio-8.jpg",
     "link": "https://camilaspenha.github.io/mata-mosquito-js/",
     "repository": "https://github.com/camilaspenha/mata-mosquito-js"
   },
@@ -119,7 +119,7 @@
       "HTML",
       "CSS"
     ],
-    "image": "/meu-portfolio/img/portfolio-9.jpg",
+    "image": "img/portfolio-9.jpg",
     "link": "https://camilaspenha.github.io/spot-clone/",
     "repository": "https://github.com/camilaspenha/spot-clone"
   },
@@ -133,7 +133,7 @@
       "CSS",
       "CSS Flex Box"
     ],
-    "image": "/meu-portfolio/img/portfolio-10.jpg",
+    "image": "img/portfolio-10.jpg",
     "link": "https://camilaspenha.github.io/curso-css-flexbox/",
     "repository": "https://github.com/camilaspenha/curso-css-flexbox"
   },
@@ -147,7 +147,7 @@
       "CSS",
       "CSS Grid Layout"
     ],
-    "image": "/meu-portfolio/img/portfolio-11.jpg",
+    "image": "img/portfolio-11.jpg",
     "link": "https://camilaspenha.github.io/curso-css-grid-layout-origamid/",
     "repository": "https://github.com/camilaspenha/curso-css-grid-layout-origamid"
   },
@@ -162,7 +162,7 @@
       "PHP",
       "Laravel"
     ],
-    "image": "/meu-portfolio/img/portfolio-12.jpg",
+    "image": "img/portfolio-12.jpg",
     "link": "https://www.nebulacapital.com.br/",
     "repository": ""
   }

@@ -1,5 +1,5 @@
 import styles from './About.module.css'
-import {dadosNew} from '../../constants/dados'
+import {dadosNew, SITE_URL} from '../../constants/dados'
 
 const About = () => {
 
@@ -19,11 +19,8 @@ const About = () => {
             <div className={styles["profile-card"]}>
               <div className={styles["profile-header"]}>
                 <div className={styles["profile-image"]}>
-                  <img src="img/profile.jpg" alt="Imagem de Perfil" className="img-fluid" />
+                  <img src={`${SITE_URL}img/profile.jpg`} alt="Imagem de Perfil" className="img-fluid" />
                 </div>
-                {/* <div className={styles["profile-badge"]}>
-                  <i className="bi bi-check-circle-fill"></i>
-                </div> */}
               </div>
 
               <div className={styles["profile-content"]}>
@@ -72,7 +69,7 @@ const About = () => {
               </div>
 
               <div className={styles["cta-section"]}>
-                <a href={dadosNew.resumeNew.file} className="custom-button btn btn-primary" target='_blank'>
+                <a href={SITE_URL + dadosNew.resumeNew.file} className="custom-button btn btn-primary" target='_blank'>
                   <i className="bi bi-download"></i>
                   Baixar Currículo
                 </a>

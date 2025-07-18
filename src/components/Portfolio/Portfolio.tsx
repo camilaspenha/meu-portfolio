@@ -4,6 +4,7 @@ import type { Project } from "../../types"
 import { fetchProjects } from "../../api/fetchProjects"
 import SectionTitle from '../Title/SectionTitle'
 import styles from './Portfolio.module.css'
+import { SITE_URL } from "../../constants/dados"
 
 const Portfolio = () => {
 
@@ -18,14 +19,14 @@ const Portfolio = () => {
 
         <SectionTitle text="Portfólio" />
 
-        <div className={`row ${styles["portfolio-container"]}`}>
+        <div className="row">
 
           {projects.map(project => (
-            <div className={`col-lg-4 col-md-6 p-0`} key={project.id}>
+            <div className={`col-lg-4 col-md-6 p-3 p-lg-0`} key={project.id}>
 
-              <Link to={`/projeto/${project.id}`} className="">
+              <Link to={`projeto/${project.id}`} className="">
                   <div className={styles["portfolio-wrap"]}>
-                    <img src={project.image} className="img-fluid" alt={project.title}loading="lazy" />
+                    <img src={SITE_URL + project.image} className="img-fluid" alt={project.title}loading="lazy" />
                     <div className={styles["portfolio-info"]}>
                       <div className="content">
                         <span className={styles.category}>{project.category}</span>

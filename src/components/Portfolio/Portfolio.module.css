@@ -1,69 +1,3 @@
-
-.portfolio .filters-wrapper {
-  background-color: color-mix(in srgb, var(--surface-color), var(--default-color) 3%);
-  padding: 30px;
-  border-radius: 10px;
-  box-shadow: 0 5px 25px rgba(0, 0, 0, 0.05);
-}
-
-@media (max-width: 991px) {
-  .portfolio .filters-wrapper {
-    padding: 20px;
-  }
-}
-
-/* .portfolio .portfolio-filters {
-  padding: 0;
-  margin: 0;
-  list-style: none;
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-} */
-
-/* @media (max-width: 991px) {
-  .portfolio .portfolio-filters {
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-} */
-
-/* .portfolio .portfolio-filters li {
-  cursor: pointer;
-  padding: 12px 20px;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 1;
-  color: var(--default-color);
-  transition: all 0.3s ease-in-out;
-  border-radius: 6px;
-  background: transparent;
-  position: relative;
-  border-left: 3px solid transparent;
-} */
-
-/* @media (max-width: 991px) {
-  .portfolio .portfolio-filters li {
-    padding: 8px 16px;
-    border: 1px solid color-mix(in srgb, var(--accent-color), transparent 80%);
-    border-left-width: 3px;
-  }
-}
-
-.portfolio .portfolio-filters li:hover {
-  color: var(--accent-color);
-  background-color: color-mix(in srgb, var(--accent-color), transparent 90%);
-  border-left-color: color-mix(in srgb, var(--accent-color), transparent 50%);
-}
-
-.portfolio .portfolio-filters li.filter-active {
-  color: var(--accent-color);
-  background-color: color-mix(in srgb, var(--accent-color), transparent 90%);
-  border-left-color: var(--accent-color);
-  font-weight: 600;
-} */
-
 .portfolio .portfolio-wrap {
   transition: 0.4s;
   position: relative;
@@ -152,4 +86,19 @@
 .portfolio .portfolio-wrap:hover .portfolio-info {
   transform: translateY(5px);
   opacity: 1;
+}
+
+@media screen and (max-width:992px) {
+    .portfolio .portfolio-wrap .portfolio-info {
+      position: relative;
+      background: var(--surface-color);
+      transition: all 0.4s cubic-bezier(0.215, 0.61, 0.355, 1);
+      transform: unset;
+      opacity: 1;
+      height: auto;
+    }
+
+    .portfolio .portfolio-wrap .portfolio-info h4 {
+      color: var(--default-color);
+    }
 }
