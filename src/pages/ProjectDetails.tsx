@@ -19,27 +19,12 @@ export default function ProjectDetails() {
 
   return (
     <>
-      {/* <div className="container py-4">
-        <img src={project.image} alt={project.title} className="img-fluid rounded mb-4" />
-        <h1>{project.title}</h1>
-        <p>{project.description}</p>
-        <h5 className="mt-4">Tecnologias:</h5>
-        <ul>
-          {project.techs.map(tech => (
-            <li key={tech}>{tech}</li>
-          ))}
-        </ul>
-        <div className="mt-3">
-          <a href={project.link} className="btn btn-primary me-2" target="_blank">Ver Projeto</a>
-          {project.repository && project.repository !== "" ? <a href={project.repository} className="btn btn-outline-secondary" target="_blank">Repositório</a> : ""}
-        </div>
-      </div> */}
         <div className="page-title bg-light">
           <div className="container d-lg-flex justify-content-between align-items-center">
             <h1 className="mb-2 mb-lg-0">{project.title}</h1>
             <nav className="breadcrumbs">
               <ol>
-                <li><a href="/"><strong>Home</strong></a></li>
+                <li><a href="/meu-portfolio/"><strong>Home</strong></a></li>
               </ol>
             </nav>
           </div>
