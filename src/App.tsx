@@ -5,7 +5,7 @@ import './styles/custom.css'
 
 function App() {
   return (
-    <Router>
+    <Router basename="/meu-portfolio">
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/projeto/:id" element={<ProjectDetails />} />
