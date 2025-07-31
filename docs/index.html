@@ -1,6 +1,13 @@
 <!doctype html>
 <html lang="pt-br">
   <head>
+    <script>
+      const redirect = sessionStorage.redirect;
+      if (redirect) {
+        sessionStorage.removeItem('redirect');
+        history.replaceState(null, '', redirect);
+      }
+    </script>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/meu-portfolio/git.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -11,7 +18,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 
     <title>Camila Penha - Portfólio</title>
-    <script type="module" crossorigin src="/meu-portfolio/assets/index-DrIc1JA0.js"></script>
+    <script type="module" crossorigin src="/meu-portfolio/assets/index-CIpGyOSg.js"></script>
     <link rel="stylesheet" crossorigin href="/meu-portfolio/assets/index-p4yd_tRN.css">
   </head>
   <body>
