@@ -1,5 +1,19 @@
 [
   {
+    "id": "meu-app-tmdb",
+    "title": "Meu App TMDB Api",
+    "description": "Este projeto é um site de busca de filmes e séries baseado na API pública do TMDB, criado com o objetivo de estudar e praticar onsumo de APIs RESTful. Construído com React, Typescript, Fetch API, Axios, e estilizado com Bootstrap.",
+    "category": "API React",
+    "techs": [
+      "React",
+      "Typescript",
+      "API Rest"
+    ],
+    "image": "img/meu-app-tmdb.png",
+    "link": "https://camilaspenha.github.io/meu-app-tmdb/",
+    "repository": "https://github.com/camilaspenha/meu-app-tmdb"
+  },
+  {
     "id": "setos-plataformas",
     "title": "Setos Plataformas",
     "description": "Um site institucional para empresa de locação de plataformas elevatórias. Construído com WordPress, usando o plugin ACF - Advanced Custom Fields para criação do tema personalizado e Typescript, integrado com um formulário de contato para envio de e-mails pela biblioteca PHP Mailer.",
