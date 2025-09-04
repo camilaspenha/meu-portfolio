@@ -11,7 +11,7 @@ const Hero = () => {
 
   useEffect(() => {
     const typed = new Typed(el.current, {
-        strings: ['Web Designer', 'Desenvolvedora Front-end'],
+        strings: ['Desenvolvedora Front-end', 'Web Designer'],
         typeSpeed: 50,
         backSpeed: 50,
         backDelay: 2000,
