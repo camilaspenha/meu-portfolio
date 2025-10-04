@@ -52,9 +52,9 @@ const About = () => {
               </div>
 
               <div className={styles.description}>
-                <p>Trabalho há 5 anos com construção de páginas web com uso das principais tecnologias do desenvolvimento front-end como HTML5, CSS3, Bootstrat, Javascript, PHP, Wordpress, versionamento de código com Git, GitHub com foco no desenvolvimento mobile-first.</p>
+                <p>Trabalho há 5 anos como Desenvolvedora e Web Designer com experiência em criação de interfaces digitais funcionais, centradas no usuário e em construção de páginas web com uso das principais tecnologias do Desenvolvimento Front-End como HTML5, CSS3, Bootstrap, Javascript, Typescript, React, PHP, Wordpress, versionamento de código com Git, GitHub e Desenvolvimento Mobile-First.</p>
 
-                <p>Como Web Designer, atuo principalmente no design e prototipagem de interfaces com uso de Figma, Adobe XD, Illustrator e Photoshop.</p>
+                <p>Como Web Designer, atuo principalmente com UI/UX, aplico as Heurísticas de Nielsen na avaliação de usabilidade, além de boas práticas em Design de Interface, Guias de Estilo e Design System. Atuo também com metodologias de Design Thinking, unindo pesquisa, prototipagem e testes para desenvolver soluções intuitivas e consistentes, com uso das ferramentas Figma, Illustrator e Photoshop.</p>
 
                 <p>Possuo forte habilidade em trabalhar de forma colaborativa em equipes ágeis, boa comunicação, resolução de problemas, organização e sempre busco aprender novas tecnologias.</p>
               </div>

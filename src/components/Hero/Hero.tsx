@@ -11,7 +11,7 @@ const Hero = () => {
 
   useEffect(() => {
     const typed = new Typed(el.current, {
-        strings: ['Desenvolvedora Front-end', 'Web Designer'],
+        strings: ['Web Designer', 'Desenvolvedora Web Front-End'],
         typeSpeed: 50,
         backSpeed: 50,
         backDelay: 2000,
@@ -42,7 +42,7 @@ const Hero = () => {
                     <span ref={el}></span>
                     </p>
                   <p className={`${styles.description} mx-auto mb-4`}>
-                    Construo interfaces para web interativas, responsivas e centradas no usuário, com uso das principais tecnologias de desenho/prototipação e de desenvolvimento web.
+                    Construo interfaces para web interativas, responsivas e centradas no usuário, com uso das principais tecnologias de desenho/prototipação em UI/UX e desenvolvimento web.
                   </p>
                 </div>
               </div>
