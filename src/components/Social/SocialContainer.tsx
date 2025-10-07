@@ -18,7 +18,7 @@ const SocialContainer = () => {
         </a>
         ))}
          <a href="https://www.figma.com/design/I4dK1vHpGBo6Mv4x8WZiBu/Portfolio?node-id=2108-1287&t=sgKZsbqbVIjD4kx7-1" target='_blank' title="Link para Figma - Abre nova página" rel="noopener noreferrer" >
-             <SiFigma />
+            <SiFigma />
         </a>
       </div>
     </>
