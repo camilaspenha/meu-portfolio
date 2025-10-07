@@ -1,5 +1,17 @@
 [
   {
+    "id": "figma",
+    "title": "Wireframes e Design Systems",
+    "description": "Este é o perfil no Figma onde demonstro meu processo de criação de UI com desenvolvimento de Wireframes e Design Systems.",
+    "category": "UI Design",
+    "techs": [
+      "Figma",
+      "UI Design"
+    ],
+    "image": "img/capa_figma.jpg",
+    "link": "https://www.figma.com/design/I4dK1vHpGBo6Mv4x8WZiBu/Portfolio?node-id=2108-1287&t=sgKZsbqbVIjD4kx7-1"
+  },
+  {
     "id": "meu-app-tmdb",
     "title": "Meu App TMDB Api",
     "description": "Este projeto é um site de busca de filmes e séries baseado na API pública do TMDB, criado com o objetivo de estudar e praticar onsumo de APIs RESTful. Construído com React, Typescript, Fetch API, Axios, e estilizado com Bootstrap.",
